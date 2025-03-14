@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, footer, main{
+    width: 100%;
+    background-color:#620e2c;
+    color: #620E2C;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 180px;
+    text-align: center;
+}
+header h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: 8px;
+    padding: 25px;
+    color: #EF85B1;
+}
+nav{
+    height: auto;
+    background-color: #3f0a29;
+    
+}
+nav ul{
+    text-align: center
+}
+nav ul li{
+    width: auto;
+    list-style-type: none;
+    background-color: #620e2c;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    border-radius: 20px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: #DE7C7D;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:#3f0a29;
+}
+nav ul li:hover{
+    background-color: #F08CB6;
+    width: 130px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+main{
+    height: auto;
+    background-color: #F5BCC1;
+}
+section{
+    width: 80%px;
+    height: auto;
+    background-color: #DB90BE;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    text-align: center;
+}
+section p{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+h2, p{
+    margin-bottom: 30px;
+}
+section h2{
+    font-family: "Abril Fatface", serif;
+    font-size: 22px;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #390E2B;
+}
+footer{
+    text-align: center;
+    color: #EF85B1;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+table{
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+#table_1{
+    width: 80%px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table_1 th, #table_1 td, #table_2 th, #table_2 td, #table_3 th, #table_3 td{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#table_1 th, #table_2 th, #table_3 th{
+    background-color: #FFCD60;
+}
+#table_1 td{
+    background-color: #FF487E;
+}
+#table_2{
+    width: 100%;
+    border-style: solid;
+    border-color: #D34848;
+    border: 5px;*/
+    border: 5px solid #D34848;
+    border-spacing: 20px;
+    border-collapse: collapse;
+}
+#table_2 tr, #table_2 td{
+    border: 3px solid #D34848;
+}
+#table_2 tbody tr:nth-child(even){
+    background-color: #FF8162;
+}
+#table_2 tbody tr:nth-child(odd){
+    background-color: lightpink;
+}
+#table_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rosybrown;
+    border-collapse: collapse;
+}
+#table_3 th, #table_3 td{
+    border: 2px solid;
+    border-color: pink;
+    
+}
+#table_3 th{
+    height: 60px;
+}
+#table_3 td{
+    height: 30px;
+    padding-left: 6px;
+}
+#table_3 tr:hover{
+    background-color: #D34848;
+    color: beige;
+}
+h1, h6{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.imgpng{
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.imagenes_box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#imagen_borderedondo{
+    border-radius: 50%;
+}
+.imagenes_flotantes_left{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.imagenes_flotantes_right{
+    width: 20%;
+    float: right;
+    margin left: 20px;
+}
+.fondo{
+    background-image: url("../imagen/universe-4609408_640.jpg");
+    background-size: cover;
+}
+.imagen_enlace{
+    width: 64px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen_filtro{
+    width: 30%;
+    margin: 15px;
+}
+form{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: #99426A;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    color: #F5BCC1;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=text], input[type=password], input[type=date], input[type=number], input[type=email], input[type=tel], select, textarea{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: bisque;
+    color: coral;
+    border: 3px solid #620E2C;
+}
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: #F5BCC1;
+    color: indianred;
+    border: 3px solid #E84A5F;
+    border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus, input[type=number]:focus, input[type=email]:focus, input[type=tel]:focus, select:focus, textarea:focus{
+    color: #EF85B1;
+    background-color: #620E2C;
+}

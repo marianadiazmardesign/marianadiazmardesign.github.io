@@ -1,0 +1,221 @@
+<html>
+<head>
+    <title>Listas en html</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="icon" href="../imagen/iconmar.png" type="imagen/x-icon">
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header, nav, main, footer{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header{
+            height: 180px;
+            background-color: chartreuse;
+            color: green;
+            padding: 25px;
+        }
+        #formatogreen{
+            height:120px;
+            background-color: palegreen;
+            padding: 25px;
+        }
+        main{
+            height: auto;
+            padding: 30px;
+            background-color: forestgreen;
+            /*margin-left: auto;
+            margin-right: auto;*/
+        }
+        section{
+            width: 900px;
+            height: auto;
+            background-color: greenyellow;
+            margin: 25px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            overflow-x: auto;
+        }
+        footer{
+            height:auto;
+            padding: 10px;
+            background-color: darkgreen;
+            color: lightyellow;
+        }
+        header h1, footer h6{
+            text-align: center;
+        }
+        h2{
+            margin-bottom: 20px;
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            background-color: yellowgreen;
+        }
+        section ul, section ol, section dt{
+            margin-left: 25px;
+            margin-top: 8px;
+        }
+        section dd{
+            margin-left: 40px;
+            margin-top: 8px;
+        }
+        #vineta{
+            padding-left: 50px;
+            list-style-image: url("../imagen/mexico.png");
+        }
+        main{
+            text-align: center;
+        }
+        section{
+            width: 40%;
+            min-width: 400px;
+            height: 600px;
+            display: inline-block;
+            margin: 20px;
+        }
+        p, ol, ul, dl{
+            text-align: left;
+        }
+        #lista_descripcion{
+            width: 90%;
+        }
+    </style>
+    </head>
+<body> 
+    <header>
+    <h1>LISTAS</h1>
+    </header>
+        <nav>
+        <ul>
+            <li><a href="../html/formatos.html">Formatos</a></li>
+            <li><a href="../html/listas.html">Listas</a></li>
+            <li><a href="../html/enlaces.html">Enlaces</a></li>
+            <li><a href="../html/tablas.html">Tablas</a></li>
+            <li><a href="../html/imagenes.html">Imagenes</a></li>
+            <li><a href="../html/audio.html">Audios</a></li>
+            <li><a href="../html/video.html">Videos</a></li>
+            <li><a href="../html/formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+       <nav id="formatogreen">
+        <ul>
+            <li>Lista desordenada</li>
+            <li>Lista ordenada</li>
+            <li>Lista mixta</li>
+            <li>Listas de descripción</li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Lista desordenada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum, velit ac convallis imperdiet, nulla nisl eleifend dolor, non varius orci dolor a libero. In eget egestas leo. Morbi neque magna, cursus ut nunc tempor, iaculis pellentesque nibh. Donec urna ipsum, tincidunt nec posuere eu, porta quis augue. Cras ultrices metus in orci porttitor, nec cursus turpis venenatis. Fusce mollis nisi at congue dignissim. Fusce eleifend dolor ex, a porta justo mollis quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer nec lacus volutpat, suscipit.</p>
+            <ul>
+                <li>Alemania</li>
+                <li>Belgica</li>
+                <li>Colombia</li>
+                <li>Francia</li>
+                <li>Honduras</li>
+                <li>Libia</li>
+                <li>México</li>
+                <li>Portugal</li>
+                <li>Somalia</li>
+                <li>Yemen</li>
+        </ul>
+        </section>
+        <section>
+            <h2>Lista ordenada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin scelerisque sapien, fermentum vestibulum nulla faucibus quis. Duis rutrum erat luctus, blandit justo et, sollicitudin lacus. Pellentesque a porttitor mi, quis suscipit est. Nulla id leo at sem vestibulum interdum sit amet volutpat nisl. Sed ullamcorper, risus nec auctor maximus, nunc tortor blandit justo, at tempor sapien tellus a nulla. Donec id nulla elit. Vestibulum vehicula sollicitudin imperdiet. Proin scelerisque mauris ornare, dapibus sapien sed, viverra tellus.Vivamus purus tellus, porttitor in porttitor vel, rutrum vel nunc. Vivamus ut metus eros. Mauris orci tortor, luctus vel odio lacinia, fermentum accumsan nunc. Suspendisse sed lacus a urna varius convallis. Morbi at justo sit amet eros hendrerit venenatis. Fusce faucibus faucibus ligula. Nam sed neque a ipsum luctus pulvinar ultricies a sapien. Vivamus mollis tempus sodales. Curabitur ac diam dui. Maecenas sodales mi sit amet tellus ullamcorper mollis. Fusce elementum est a augue efficitur facilisis. Ut ullamcorper egestas erat, eu venenatis enim.</p>
+            <ol>
+                <li>Aguascalientes</li>
+                <li>Baja California</li>
+                <li>Colima</li>
+                <li>Jalisco</li>
+                <li>Michoacan</li>
+                <li>Oaxaca</li>
+                <li>Puebla</li>
+                <li>San Luis Potosi</li>
+                <li>Tlaxcala</li>
+                <li>Quintana Roo</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Lista mixta</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu porttitor magna, id ultricies nisl. Cras semper non lorem at feugiat. Aenean venenatis mauris purus, eget malesuada nunc facilisis at. Proin ac metus luctus, pharetra magna sed, accumsan orci. Proin tincidunt ipsum sit amet accumsan faucibus. Nulla id risus sodales, pretium nisi at, dignissim lacus. Nulla rutrum ac tortor vel fringilla. Aliquam erat volutpat. Integer molestie sem leo, ac molestie augue molestie in. Mauris dictum varius neque ac elementum. Praesent in lacus sapien. Nam ante arcu, volutpat vel hendrerit eget, molestie ut erat. Phasellus nisl mi, cursus a auctor et, efficitur non libero. Fusce at orci neque. Pellentesque condimentum aliquam.</p>
+            <ol>
+                <li>Acajete</li>
+                <li>Atlixco</li>
+                <li>Cholula</li>
+                    <ul>
+                        <li>Amates</li>
+                        <li>Camino real</li>
+                        <li>Atocha</li>
+                        <li>Cholollan</li>
+                        <li>El Pilar</li>
+                        <li>Moxopan</li>
+                    </ul>
+                <li>Cuautlancingo</li>
+                <li>Puebla
+                    <ul>
+                        <li>San Manuel</li>
+                        <li>Universidades</li>
+                        <li>Amalucan</li>
+                        <li>San Ramon</li>
+                        <li>Ganjas de San Isidro</li>
+                        <li>San Baltazar Campeche</li>
+                    </ul>
+                </li>
+                <li>Tepeaca</li>
+                <li>Zacatlan</li>
+                <li>Huauchinango</li>
+                <li>Amozoc</li>
+                <li>San Martín
+                    <ul>
+                        <li>El Moral</li>
+                        <li>San Cristóbal</li>
+                        <li>San Rafael Tlanalapan</li>
+                        <li>San Lucas el grande</li>
+                        <li>San Baltazar</li>
+                        <li>La Joya</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Lista con imágen</h2>
+            <p>Malesuada ac parturient diam viverra fusce nascetur mi porttitor. Mattis molestie donec class aliquet vulputate potenti, faucibus mollis. Nam ullamcorper lacinia eros aliquam dapibus interdum sollicitudin enim ridiculus. Odio maecenas quisque vel montes ad malesuada elit malesuada. Sociosqu libero tristique ullamcorper porta ut tellus metus. Rhoncus nisi massa tellus morbi viverra tellus ut convallis. Vivamus pulvinar non enim nibh dignissim et. Quam eget hac donec lectus morbi praesent per vitae. Himenaeos arcu integer orci molestie ultrices.Nullam tellus erat potenti facilisi lacinia arcu enim. Molestie consectetur porta felis consequat sodales; augue non sagittis libero. Dignissim urna nisi tempor; nascetur nisi at eros. Urna ultrices tincidunt litora egestas scelerisque tempor lobortis. Elit ad elit mollis dui phasellus; pharetra potenti vestibulum. Facilisi duis amet class pharetra nisl habitasse natoque.</p>
+            <ul id="vineta">
+                <li>Elemento de lista con imágen</li>
+                <li>Elemento de lista con imágen</li>
+                <li>Elemento de lista con imágen</li>
+                <li>Elemento de lista con imágen</li>
+                <li>Elemento de lista con imágen</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Listas de descripción</h2>
+            <p>Phasellus condimentum tellus lectus, in lacinia quam volutpat iaculis. Nulla ornare, sem vel mattis ultricies, elit eros varius turpis, vel ullamcorper lorem augue a nisl. Praesent dapibus odio turpis, id rutrum eros euismod ut. Integer non odio in ligula tincidunt commodo. Mauris porta ullamcorper imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec nisl nisl, semper nec imperdiet id, maximus sed odio.Nam odio eros, facilisis at tellus nec, sollicitudin placerat lacus. Aliquam erat volutpat. Duis eu consectetur nisl. Sed suscipit ligula massa, faucibus gravida elit rutrum sit amet. Nulla facilisi. Nullam lectus nisl, laoreet quis venenatis vitae, posuere tempus nunc. Donec convallis nunc.</p>
+            <dl id="lista_descripcion">
+                <dt>País</dt>
+                <dd>Phasellus laoreet, est ut suscipit pellentesque, tellus ipsum imperdiet libero, sit amet commodo risus dui et urna. Integer sed blandit sem, vitae suscipit arcu. Cras at feugiat lectus. Vivamus at metus non dui interdum laoreet eu vitae nisl. Aenean pellentesque eros non maximus venenatis. Quisque euismod sagittis mauris at euismod.</dd>
+                <dt>Estado</dt>
+                <dd>Aenean non imperdiet magna. Morbi magna mi, fringilla vitae pulvinar quis, placerat sagittis sapien. Curabitur ac mattis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum non.</dd>
+                <dt>Municipio</dt>
+                <dd>Pellentesque aliquam arcu ut dui rhoncus, et iaculis lectus auctor. Duis pulvinar nulla id lacus maximus hendrerit. Pellentesque sit amet diam tincidunt ligula blandit efficitur eget et justo. Etiam fringilla euismod lectus sit amet pharetra. Sed et ante ac erat dapibus condimentum ut nec mi. In posuere scelerisque neque, at.</dd>
+                <dt>Colonia</dt>
+                <dd>Aenean non imperdiet magna. Morbi magna mi, fringilla vitae pulvinar quis, placerat sagittis sapien. Curabitur ac mattis felis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum non.</dd>
+            </dl>
+        </section>
+    </main>
+   <footer>
+        <a href=../index.html><img class="imagen_enlace" src=../imagen/iconmar.png></a>
+       <h6>Elaborado por: Mariana Díaz García</h6>
+    </footer>
+    </body>
+</html>
